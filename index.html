@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unwrap Your Gift!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-ui">
+        <div id="counter">Layers remaining: <span id="box-count">10</span></div>
+        <div class="box-container" id="gift-box">
+            <div class="box">
+                <div class="ribbon-v"></div>
+                <div class="ribbon-h"></div>
+            </div>
+        </div>
+        <div id="message">Click the present to start unwrapping!</div>
+    </div>
+
+    <div id="final-gift" class="hidden">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <p>You survived the endless nesting boxes!</p>
+        <div class="reward-container">
+            <p class="reward-label">YOUR REAL SURPRISE:</p>
+            <!-- Change this text to whatever your real gift is! -->
+            <h2 class="reward-text">🎁 A Surprise Gift in big room!🎁</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
