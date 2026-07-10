@@ -42,6 +42,7 @@ giftBox.addEventListener('click', () => {
             levelBadge.textContent = currentLevel === 5 ? "FINAL LEVEL" : "LEVEL " + currentLevel;
             boxCountElement.textContent = count;
             messageElement.textContent = "🚀 LEVEL UP! Welcome to Level " + currentLevel + "!";
+            return;
         } else {
             gameUi.classList.add('hidden');
             finalGift.classList.remove('hidden');
