@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, pink 0%, lightpink 100%);
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
 
 #counter {
     font-size: 1.5rem;
-    color: white;
+    color: #fff;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
     margin-bottom: 20px;
     font-weight: bold;
@@ -22,33 +22,25 @@ body {
 
 .box-container {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     cursor: pointer;
     margin: 0 auto;
-    transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
-}
-
-.box-container:hover {
-    transform: translateY(-5px);
+    transition: transform 0.15s ease, width 0.3s ease, height 0.3s ease;
 }
 
 .box-container:active {
-    transform: scale(0.9) translateY(0);
+    transform: scale(0.9);
 }
 
 .box {
     width: 100%;
     height: 100%;
-    background-color: crimson;
+    background-color: #ff4757;
     border-radius: 12px;
     position: relative;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    transition: background-color 0.3s ease, box-shadow 0.2s ease;
-}
-
-.box-container:hover .box {
-    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
 }
 
 .ribbon-v {
@@ -57,7 +49,7 @@ body {
     transform: translateX(-50%);
     width: 34px;
     height: 100%;
-    background-color: orange;
+    background-color: #ffa502;
     transition: background-color 0.3s ease;
 }
 
@@ -67,13 +59,13 @@ body {
     transform: translateY(-50%);
     width: 100%;
     height: 34px;
-    background-color: orange;
+    background-color: #ffa502;
     transition: background-color 0.3s ease;
 }
 
 #message {
     font-size: 1.2rem;
-    color: darkslategray;
+    color: #2c3e50;
     margin-top: 30px;
     background: rgba(255, 255, 255, 0.85);
     padding: 12px 24px;
@@ -98,13 +90,13 @@ body {
 }
 
 #final-gift h1 {
-    color: crimson; 
+    color: #ff4757; 
     margin: 0 0 10px 0;
 }
 
 #final-gift p {
     font-size: 1.2rem; 
-    color: dimgray;
+    color: #555;
 }
 
 .reward-container {
@@ -113,13 +105,13 @@ body {
 
 .reward-label {
     font-weight: bold; 
-    color: gray; 
+    color: #777; 
     margin-bottom: 5px !important;
 }
 
 .reward-text {
-    color: limegreen; 
-    background: whitesmoke; 
+    color: #2ed573; 
+    background: #f1f2f6; 
     padding: 20px; 
     border-radius: 12px; 
     margin: 0;
