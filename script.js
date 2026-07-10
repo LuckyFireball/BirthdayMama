@@ -1,23 +1,23 @@
-let count = 65;
-const totalLayers = 65;
+let count = 150;
+const totalLayers = 150;
 
 const funnyPhrases = [
     "Wait, there's another box inside?",
     "Seriously? Another one?! Keep opening!",
     "Is this joke getting old yet? Unbox it!",
-    "Wow, you are determined. Layer 60!",
+    "Wow, you are determined. Layer 140!",
     "Still going? There are a LOT of boxes left.",
     "I promise there is a real gift eventually...",
-    "Layer 50! You are a champ.",
+    "Layer 120! You are a champ.",
     "Your fingers must be getting tired.",
     "Are you regretting clicking this yet?",
-    "Layer 40! We are making progress.",
-    "Keep clicking! Almost halfway!",
+    "Layer 100! Triple digits!",
+    "Keep clicking! Layer 80!",
     "Woohoo! Halfway mark passed!",
-    "Layer 30! The boxes are getting smaller.",
+    "Layer 60! The boxes are getting smaller.",
     "Okay, this is getting ridiculous.",
-    "Layer 20! So close now!",
-    "Only 10 layers left! Focus!",
+    "Layer 40! So close now!",
+    "Only 20 layers left! Focus!",
     "The absolute final layer! Click it!!!",
 ];
 
